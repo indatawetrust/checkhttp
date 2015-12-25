@@ -16,5 +16,5 @@
             "Check\\Http": "src/"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "4.2.*"
 }
