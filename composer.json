@@ -1,6 +1,6 @@
 {
     "name": "check/http",
-    "description": "",
+    "description": "check http",
     "authors": [
         {
             "name": "Ahmet Simsek",
@@ -14,11 +14,6 @@
     "autoload": {
         "psr-0": {
             "Check\\Http": "src/"
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "4.2-dev"
         }
     },
     "minimum-stability": "stable",
