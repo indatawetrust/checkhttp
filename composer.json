@@ -15,5 +15,7 @@
         "psr-0": {
             "Check\\Http": "src/"
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable" : true
 }
