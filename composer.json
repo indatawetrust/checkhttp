@@ -1,6 +1,6 @@
 {
     "name": "check/http",
-    "description": "",
+    "description": "check http",
     "authors": [
         {
             "name": "Ahmet Simsek",
