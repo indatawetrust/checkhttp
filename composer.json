@@ -1,6 +1,6 @@
 {
     "name": "check/http",
-    "description": "check http",
+    "description": "",
     "authors": [
         {
             "name": "Ahmet Simsek",
@@ -9,11 +9,12 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "illuminate/support": "4.2.*"	
+        "illuminate/support": "4.2.*"
     },
     "autoload": {
-        "psr-4": {
+        "psr-0": {
             "Check\\Http": "src/"
         }
-    }
+    },
+    "minimum-stability": "stable"
 }
