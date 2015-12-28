@@ -9,8 +9,8 @@ Route::get($route == '' ? 'check_http' : $route,function(){
 
 	$cache = new Cache;
 
-	if(Config::get('cache.driver') == 'file'){
-		$cacheResponse = 'Please set the cache settings redis as.';
+	if(Config::get('cache.driver') != 'redis'){
+		$cacheResponse = false;
 	}else{
 
 		try{
