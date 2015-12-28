@@ -16,11 +16,6 @@
             "Check\\Http": "src/"
         }
     },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "v1.0.0-dev"
-        }
-    },
     "minimum-stability": "stable",
     "prefer-stable": true
 }
