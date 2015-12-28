@@ -16,6 +16,12 @@
             "Check\\Http": "src/"
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/indatawetrust/checkhttp"
+        }
+    ],
     "minimum-stability": "stable",
     "prefer-stable": true
 }
