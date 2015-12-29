@@ -15,7 +15,7 @@ class httpServiceProvider extends ServiceProvider
     {
         //
         $this->publishes([
-            __DIR__.'/config/config.php' => config_path('checkhttp/config.php'),
+            __DIR__.'../../config/config.php' => config_path('checkhttp/config.php'),
         ]);
 
         require __DIR__.'/routes.php';
