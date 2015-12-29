@@ -1,6 +1,6 @@
 <?php
 
-$route = Config::get('http::config.route');
+$route = config('checkhttp.config.route');
 
 Route::get($route == '' ? 'check_http' : $route,function(){
 
@@ -9,7 +9,7 @@ Route::get($route == '' ? 'check_http' : $route,function(){
 
 	$cache = new Cache;
 
-	if(Config::get('cache.driver') != 'redis'){
+	if(config('cache.default') != 'redis'){
 		$cacheResponse = false;
 	}else{
 
@@ -42,3 +42,4 @@ Route::get($route == '' ? 'check_http' : $route,function(){
 	]);
 
 });
+
