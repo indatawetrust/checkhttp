@@ -1,5 +1,5 @@
 <?php 
 
 return array(
-    'route' => ''
+    'route' => '/check_http'
 );
